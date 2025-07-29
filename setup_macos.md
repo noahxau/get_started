@@ -1,7 +1,7 @@
 ## 安装chrome
 
 ## fatcatcloud 配置 clash verge
-1. 购买订阅
+1. 购买订阅: https://fatcatcloud.org/
 2. 安装对应的客户端，肥猫云默认的clashX pro
 3. 导入订阅
 4. 启动clashX pro
