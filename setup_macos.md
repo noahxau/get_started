@@ -23,13 +23,22 @@ alias unproxy="unset https_proxy http_proxy all_proxy"
 ```
 
 ## 配置python开发环境
+1. 安装python版本和项目管理工具uv
 ```zsh
 brew install uv
+```
 
+2. 使用uv初始化项目并创建对应版本的venv
+```zsh
 mkdir py-demo && cd py-demo
 uv init --python 3.12
 uv venv --python 3.12
 # pycharm 打开项目
+```
+
+3. 配置uv国内源
+```zsh
+export UV_INDEX_URL="https://pypi.tuna.tsinghua.edu.cn/simple"
 ```
 
 ## 配置node开发环境
